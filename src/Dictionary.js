@@ -20,6 +20,7 @@ export default function Dictionary() {
           autoFocus="on"
           placeholder="Type your word.."
           onChange={handleKeywordChange}
+          className="inputForm"
         />
       </form>
     </div>
