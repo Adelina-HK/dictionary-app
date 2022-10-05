@@ -1,18 +1,11 @@
+import "./App.css";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
+        <p>Hello from Adelina`s dictionary 😉 </p>{" "}
       </header>
     </div>
   );
 }
-
-export default App;
