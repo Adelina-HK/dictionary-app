@@ -1,0 +1,6 @@
+header h1 {
+  color: rgb(131, 110, 238);
+  background: rgb(238, 209, 214);
+  text-shadow: 2px 2px 2px rgb(81, 78, 81);
+  border-radius: 8px;
+}
