@@ -1,4 +1,8 @@
 .inputForm {
-  margin: 50px auto; 
+  font-size: 18px;
+  margin: 50px auto;
   display: block;
-  }
+  border-radius: 2px;
+  box-shadow: 3px 1px 3px 1px rgba(48, 48, 125, 0.178);
+  border-color: rgba(38, 38, 116, 0.178);
+}
