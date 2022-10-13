@@ -2,12 +2,10 @@
   margin: 0 auto;
   max-width: 800px;
 }
-h2, .Phonetic {
+h2,
+.Phonetic {
   font-size: 18px;
   text-align: center;
-  color: rgb(31, 120, 199);
-  border-radius: 4px;
-  box-shadow: 2px 1px 2px 1px rgba(48, 48, 125, 0.178);
 }
 p {
   font-size: 15px;
@@ -15,4 +13,10 @@ p {
 }
 h3 {
   font-size: 20px;
+}
+.Results {
+  color: black;
+  border-radius: 4px;
+  box-shadow: 2px 1px 2px 1px rgba(48, 48, 125, 0.178);
+  padding: 5px;
 }
