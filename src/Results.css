@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 800px;
 }
-h2 {
+h2, .Phonetic {
   font-size: 18px;
   text-align: center;
   color: rgb(31, 120, 199);
