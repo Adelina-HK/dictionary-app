@@ -7,14 +7,14 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <div className="row keyword">
-          <div className="col-sm-5">
+        <section className="row keyword">
+          <div className="col-sm-4">
             <h2>{props.results.word}</h2>
           </div>
-          <div className="col-sm-5">
+          <div className="col-sm-4">
             <h2>{props.results.phonetic}</h2>
           </div>
-          <div className="col-sm-2">
+          <div className="col-sm-4">
             {props.results.phonetics.map( function (phonetic, index){
               return(
                 <div key={index}>
@@ -23,14 +23,14 @@ export default function Results(props) {
               );
             })}
           </div>
-        </div>
+        </section>
         <div className="meanings">
           <h3>
             {props.results.meanings.map(function(meaning, index) {
               return (
-                <div key={index}>
+                <section key={index}>
                   <Meaning meaning={meaning} />
-                </div>
+                </section>
               );
             })}
           </h3>

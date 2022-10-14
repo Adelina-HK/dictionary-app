@@ -1,22 +1,17 @@
 .keyword {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 800px;
 }
-h2,
-.Phonetic {
-  font-size: 18px;
+.keyword h2{
   text-align: center;
+  font-size: 22px;
 }
 p {
   font-size: 15px;
   margin-left: 50px;
+  opacity: 0.75;
 }
 h3 {
   font-size: 20px;
 }
-.Results {
-  color: black;
-  border-radius: 4px;
-  box-shadow: 2px 1px 2px 1px rgba(48, 48, 125, 0.178);
-  padding: 5px;
-}
+

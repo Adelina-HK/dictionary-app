@@ -5,15 +5,14 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-let [results, setResults]=useState ("");
+  let [results, setResults] = useState("");
 
   function handleResponse(response) {
-    setResults (response.data[0]);
+    setResults(response.data[0]);
   }
 
   function search(event) {
     event.preventDefault();
-    
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
@@ -24,6 +23,7 @@ let [results, setResults]=useState ("");
   }
   return (
     <div className="Dictionary">
+      {" "}
       <form onSubmit={search}>
         <input
           type="search"
@@ -33,7 +33,8 @@ let [results, setResults]=useState ("");
           className="inputForm"
         />
       </form>
-      <Results results={results}/>
+      <div className="hint">suggested words: forest, sunset, yoga,..</div>
+      <Results results={results} />
     </div>
   );
 }

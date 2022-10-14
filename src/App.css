@@ -1,6 +1,15 @@
+body{background:rgba(161, 146, 238, 0.137);}
+
+
 header h1 {
   color: rgb(131, 110, 238);
   background: rgb(238, 209, 214);
   text-shadow: 2px 2px 2px rgb(81, 78, 81);
-  border-radius: 8px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 2px 1px 2px 1px rgba(48, 48, 125, 0.178);
+}
+a {
+  color:rgb(131, 110, 238);
 }
