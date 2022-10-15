@@ -1,6 +1,6 @@
 .keyword {
-  margin: 20px auto;
-  max-width: 800px;
+  margin: 15px auto;
+ 
 }
 .keyword h2{
   text-align: center;
@@ -9,7 +9,7 @@
 p {
   font-size: 15px;
   margin-left: 50px;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 h3 {
   font-size: 20px;

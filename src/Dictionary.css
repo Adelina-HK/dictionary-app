@@ -1,14 +1,19 @@
 .inputForm {
   font-size: 18px;
-  margin: 5px auto;
+  margin-top: 85px;
+  margin: 10px auto;
   display: block;
   padding: 4px;
   border-radius: 4px;
   box-shadow: 1px 1px 2px 1px rgba(48, 48, 125, 0.178);
- border: 2px solid #eed1d6; }
+  border: 2px solid #eed1d6;
+}
 
 .Dictionary .hint {
   font-size: 11px;
   text-align: center;
   margin-bottom: 10px;
- }
+}
+input {
+  width: 400px;
+}
