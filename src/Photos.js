@@ -16,11 +16,11 @@ export default function Photos(props) {
                   target="_blank"
                 >
                   <img
-                    src={photo.src.medium}
+                    src={photo.src.landscape}
                     className="img-fluid"
                     alt="images"
                     key={index}
-                  />
+                                     />
                 </a>
               </div>
             );

@@ -17,3 +17,12 @@
 input {
   width: 400px;
 }
+section {
+  color: black;
+  border-radius: 4px;
+  box-shadow: 2px 1px 2px 1px rgba(48, 48, 125, 0.178);
+  padding: 15px;
+  background-color: #eed1d648;
+  max-width: 800px;
+  margin: 15px auto;
+}
