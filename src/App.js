@@ -16,7 +16,7 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center mt-5">
+        <footer className="text-center mt-5 opacity-75">
           <small>Coded by Adelina Hetman</small>
           <div>
             {" "}
